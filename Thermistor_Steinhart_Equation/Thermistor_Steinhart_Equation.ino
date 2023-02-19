@@ -31,15 +31,15 @@
 const int sensorPin1 = A0;
 const int sensorPin2 = A2;
 
-const float Rs1 = 9980.0;  // series resistor Ωohms (measured)
-const float Rs2 = 9980.0;  // series resistor Ωohms (measured)
+const float Rs1 = 10000.0;  // series resistor Ωohms (measured)
+const float Rs2 = 2180.0;  // series resistor Ωohms (measured)
 const float alpha = .95;   //data smoothing coefficient (0.0 - 1.0)
 
 //Steinhart coefficients thermistor #1
-const float A_1 = 8.756777012E-04, B_1 = 2.534289024E-04, C_1 = 1.845247963E-07; 
+const float A_1 = 1.217243477E-03, B_1 = 2.165973985E-04, C_1 = 1.815361374E-07; 
 
 //Steinhart coefficients thermistor #2
-const float A_2 = 8.756777012E-04, B_2 = 2.534289024E-04, C_2 = 1.845247963E-07;    
+const float A_2 = 1.294650764E-03, B_2 = 2.622723141E-04, C_2 = 1.499761666E-07;    
 
 const float SSEC1 = 0.0; // steady-state error correction
 const float SSEC2 = 0.0; // steady-state error correction
