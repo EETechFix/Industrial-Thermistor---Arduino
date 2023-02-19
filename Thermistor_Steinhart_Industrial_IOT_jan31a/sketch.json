@@ -1,0 +1,18 @@
+{
+  "cpu": {
+    "fqbn": "arduino:samd:nano_33_iot",
+    "name": "Arduino NANO 33 IoT",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_OPTIONAL_PASS",
+      "value": ""
+    },
+    {
+      "name": "SECRET_SSID",
+      "value": ""
+    }
+  ],
+  "included_libs": []
+}
