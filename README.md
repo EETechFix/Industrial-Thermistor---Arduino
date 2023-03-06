@@ -18,3 +18,4 @@ made at precise temperatures, then the coefficients are derived
 by solving three simultaneous equations. The coefficients are
 entered into the Steinhart equation to obtain actual temperature
 https://en.wikipedia.org/wiki/Thermistor
+https://youtu.be/q4GamN10UuQ
